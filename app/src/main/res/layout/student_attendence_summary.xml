@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="7dp"
+    app:cardBackgroundColor="#9DDBF4"
+    android:layout_marginBottom="7dp"
+    android:layout_height="wrap_content">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:columnCount="2">
+        <TextView
+            android:layout_columnWeight="1"
+            android:text="Name"
+            />
+        <TextView
+            android:id="@+id/vname"
+            android:layout_columnWeight="1"
+            android:text="Payal"
+            />
+        <TextView
+            android:layout_columnWeight="1"
+            android:text="RegNo"
+            />
+        <TextView
+            android:id="@+id/vregno"
+            android:layout_columnWeight="1"
+            android:text="12016203"
+            />
+        <TextView
+            android:layout_columnWeight="1"
+            android:text="Total Presents"
+            android:textColor="#0A470A"
+            />
+        <TextView
+            android:id="@+id/vpresents"
+            android:layout_columnWeight="1"
+            android:textColor="#0A470A"
+            android:text="50"
+            />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:text="Total Absents"
+            android:textColor="#f00"
+            />
+        <TextView
+            android:id="@+id/vabsents"
+            android:layout_columnWeight="1"
+            android:textColor="#f00"
+            android:text="3"
+            />
+    </GridLayout>
+</androidx.cardview.widget.CardView>

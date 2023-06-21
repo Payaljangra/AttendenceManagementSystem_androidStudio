@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AttendenceManagement</string>
+    <string name="DB_NAME">STUATT</string>
+    <string name="AUTH_SP">AUTH_SP</string>
+    <string name="T_REG">TEACHER_REG</string>
+</resources>

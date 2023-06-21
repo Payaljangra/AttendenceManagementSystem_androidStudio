@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="7dp">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:paddingVertical="7dp"
+        android:paddingHorizontal="10dp"
+        android:background="#B3F17C"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="Name"/>
+    <TextView
+        android:id="@+id/vname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_columnWeight="2"
+        android:text="Payal"/>
+        <Spinner
+            android:id="@+id/vspinner"
+            android:layout_rowSpan="3"
+            android:layout_rowWeight="1"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="Registratio No."/>
+    <TextView
+        android:id="@+id/vregno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_columnWeight="2"
+        android:text="12017539"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="Date"/>
+    <TextView
+        android:id="@+id/vdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_columnWeight="2"
+        android:text="18-April-2023"/>
+
+    </GridLayout>
+</androidx.cardview.widget.CardView>
